@@ -1,0 +1,10 @@
+name: Data
+form: $/pensoft/mails/models/data/fields.yaml
+modelClass: Pensoft\Mails\Models\Data
+defaultRedirect: pensoft/mails/data
+create:
+    redirect: 'pensoft/mails/data/update/:id'
+    redirectClose: pensoft/mails/data
+update:
+    redirect: pensoft/mails/data
+    redirectClose: pensoft/mails/data

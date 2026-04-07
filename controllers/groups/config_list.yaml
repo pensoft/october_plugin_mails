@@ -1,0 +1,12 @@
+list: $/pensoft/mails/models/groups/columns.yaml
+modelClass: Pensoft\Mails\Models\Groups
+title: Groups
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pensoft/mails/groups/update/:id'

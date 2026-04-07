@@ -1,0 +1,37 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table pensoft_mails_groups'
+    - builder_table_create_pensoft_mails_groups.php
+1.0.3:
+    - 'Created table pensoft_mails_data'
+    - builder_table_create_pensoft_mails_data.php
+1.0.4:
+    - 'Make the reply-to field hidden'
+1.0.5:
+    - 'Create group'
+1.0.6:
+    - 'Update group disable address'
+1.0.7:
+    - 'List active status'
+1.0.8:
+    - 'Groups new fields'
+1.0.9:
+    - 'Updated table pensoft_mails_groups'
+    - builder_table_update_pensoft_mails_groups.php
+1.0.10:
+    - 'Updated table pensoft_mails_groups'
+    - builder_table_update_pensoft_mails_groups_2.php
+1.0.11:
+    - 'Updated table pensoft_mails_groups'
+    - builder_table_update_pensoft_mails_groups_3.php
+1.0.12:
+    - 'Updated replace comments'
+1.0.13:
+    - 'Sync and permissions'
+1.0.14:
+    - 'Updated table pensoft_mails_groups'
+    - builder_table_update_pensoft_mails_groups_4.php
+
+4.0.1:
+    - 'Migrated to OctoberCMS 4 and PHP 8.2'

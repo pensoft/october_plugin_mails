@@ -1,0 +1,4 @@
+title: Groups
+modelClass: Pensoft\Mails\Models\Groups
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,73 @@
+fields:
+    address:
+        label: Address
+        span: full
+        disabled: 0
+        readOnly: 0
+        type: text
+    goto:
+        label: Goto
+        mode: string
+        separator: comma
+        customTags: true
+        useKey: false
+        span: full
+        type: taglist
+    accesspolicy:
+        label: Accesspolicy
+        options:
+            public: public
+            membersAndModeratorsOnly: membersAndModeratorsOnly
+        showSearch: true
+        span: auto
+        type: dropdown
+    active:
+        label: Active
+        span: auto
+        default: 1
+        type: checkbox
+    domain:
+        label: Domain
+        span: auto
+        readOnly: 1
+        type: text
+    moderators:
+        label: Moderators
+        size: large
+        span: full
+        readOnly: 1
+        type: textarea
+tabs:
+    fields:
+        replace_from:
+            label: 'Replace from'
+            mode: string
+            separator: comma
+            customTags: true
+            useKey: false
+            span: auto
+            type: taglist
+            commentAbove: 'Before edit contact Teodor Georgiev!'
+            tab: 'Replace options'
+        replace_to:
+            label: 'Replace to'
+            mode: string
+            separator: comma
+            customTags: true
+            useKey: false
+            span: auto
+            type: taglist
+            commentAbove: 'Before edit contact Teodor Georgiev!'
+            tab: 'Replace options'
+        name_append:
+            label: 'Name append'
+            span: auto
+            type: text
+            commentAbove: 'Before edit contact Teodor Georgiev!'
+            tab: 'Replace options'
+        add_reply_to:
+            label: 'Add reply to'
+            span: auto
+            type: text
+            commentAbove: 'Before edit contact Teodor Georgiev!'
+            tab: 'Replace options'

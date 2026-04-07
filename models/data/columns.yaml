@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: id
+        type: number
+    updated_at:
+        label: updated_at
+        type: datetime
+    group_id:
+        label: group_id
+        type: number
+    email:
+        label: email
+        type: text
+    type:
+        label: type
+        type: text

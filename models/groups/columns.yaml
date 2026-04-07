@@ -1,0 +1,31 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    active:
+        label: active
+        type: number
+        searchable: true
+        sortable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        searchable: true
+        sortable: true
+    address:
+        label: address
+        type: text
+        searchable: true
+        sortable: true
+    accesspolicy:
+        label: accesspolicy
+        type: text
+        searchable: true
+        sortable: true
+    domain:
+        label: domain
+        type: text
+        searchable: true
+        sortable: true

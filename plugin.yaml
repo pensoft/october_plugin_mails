@@ -1,0 +1,29 @@
+plugin:
+    name: 'pensoft.mails::lang.plugin.name'
+    description: 'pensoft.mails::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-envelope-square
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Mails
+        url: pensoft/mails/groups
+        icon: icon-envelope-square
+        permissions:
+            - pensoft.mails.groups
+        sideMenu:
+            groups:
+                label: Groups
+                url: pensoft/mails/groups
+                icon: icon-users
+            data:
+                label: Data
+                url: pensoft/mails/data
+                icon: icon-database
+permissions:
+    pensoft.mails:
+        tab: Mails
+        label: 'Mail data'
+    pensoft.mails.groups:
+        tab: Mails
+        label: 'Mail groups'

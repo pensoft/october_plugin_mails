@@ -1,0 +1,22 @@
+fields:
+    group:
+        label: 'Mail list'
+        nameFrom: address
+        descriptionFrom: description
+        span: left
+        required: 1
+        type: relation
+    email:
+        label: Email
+        span: right
+        required: 1
+        type: text
+    type:
+        label: Type
+        options:
+            goto: 'Go to'
+            reply_to: 'Reply to'
+        showSearch: true
+        span: left
+        required: 1
+        type: dropdown
